@@ -5,7 +5,7 @@ import React from "react";
 const ProjectsSection = () => {
   const projects = [
     {
-      label: "Angular",
+      label: "Angular | php",
       title: "Karzit",
       link: "https://Karzit.com",
       description: "Business Management System",
@@ -24,16 +24,28 @@ const ProjectsSection = () => {
         src2: "/assets/images/projects/Web Designs2.jpg",
       },
     },
+    {
+      label: "Angular | php",
+      title: "falp",
+      link: "https://falp.ir",
+      description: "Local jobs system",
+      images: {
+        src1: "/assets/images/projects/falp2.png",
+        src2: "/assets/images/projects/falp1.png",
+      },
+    },
   ];
   return (
     <section id="project" className="pt-[120px]">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="text-black-500 font-semibold text-[65px] pb-[15px] text-center">
+        <div className="text-black-500 font-semibold sm:text-[65px] text-[50px] pb-[15px] text-center">
           My Projects
         </div>
         <div className="text-black-500 text-[21px] pb-[15px] text-center">
-          Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam
-          mauris est risus lectus. Phasellus consequat urna tellus
+          I successfully delivered tailored solutions for clients, ensuring
+          their specific needs were met through high-quality design, efficient
+          development, and exceptional communication throughout the project
+          lifecycle.
         </div>
         <div className="">
           <ul className="py-4 flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 justify-center">
@@ -103,7 +115,11 @@ const ProjectsSection = () => {
                 <div className="text-orange-500 text-[19px] pb-[8px]">
                   {item.label}
                 </div>
-                <Link className="text-[19px] font-bold pb-[15px]" href={item.link} target="_blank">
+                <Link
+                  className="text-[19px] font-bold pb-[15px]"
+                  href={item.link}
+                  target="_blank"
+                >
                   {item.title}
                 </Link>
                 <div className="text-black-500 text-[21px] pb-[15px]">

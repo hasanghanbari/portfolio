@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section id="about" className="pt-[120px]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-[20px]">
-          <div className="col-span-5 mx-auto">
+          <div className="lg:col-span-5 col-span-12 mx-auto">
             <Image
               src={"/assets/images/image2.png"}
               alt={""}
@@ -15,14 +15,15 @@ const AboutSection = () => {
               height={675}
             />
           </div>
-          <div className="col-span-7">
-            <div className="text-black-500 font-semibold text-[65px] pb-[15px]">
+          <div className="lg:col-span-7 col-span-12">
+            <div className="text-black-500 font-semibold sm:text-[65px] text-[50px] pb-[15px]">
               About Me
             </div>
             <div className="text-black-500 text-[21px] pb-[15px]">
-              Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-              nibh lectus netus in. Aliquet donec morbi convallis pretium.
-              Turpis tempus pharetra
+              I am a Full-Stack Developer, currently focusing on Frontend
+              development. With six years of experience as a programmer, I have
+              gained the skills and knowledge necessary to ensure the success of
+              projects. I am highly passionate and committed to my work.
             </div>
             <div>
               <Progress title={"Javascript"} persent={"80%"} />

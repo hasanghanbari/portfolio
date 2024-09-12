@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section id="contace" className="pt-[120px]">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="text-black-500 font-semibold text-[65px] pb-[15px] text-center">
+        <div className="text-black-500 font-semibold sm:text-[65px] text-[50px] pb-[15px] text-center">
           Contact Me
         </div>
         <div className="text-black-500 text-[21px] pb-[48px] text-center">
