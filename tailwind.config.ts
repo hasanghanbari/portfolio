@@ -14,6 +14,7 @@ const config: Config = {
       },
     },
     colors: {
+      'white': '#fff',
       'orange': {
         50: '#ffefe6',
         100: '#ffcfb0',
