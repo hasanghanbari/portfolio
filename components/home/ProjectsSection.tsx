@@ -10,8 +10,8 @@ const ProjectsSection = () => {
       link: "https://Karzit.com",
       description: "Business Management System",
       images: {
-        src1: "/assets/images/projects/Web Designs1.jpg",
-        src2: "/assets/images/projects/Web Designs2.jpg",
+        src1: "/assets/images/projects/karzit2.png",
+        src2: "/assets/images/projects/karzit1.png",
       },
     },
     {
@@ -20,8 +20,8 @@ const ProjectsSection = () => {
       link: "https://tikplan.ir",
       description: "Flight ticket sales system",
       images: {
-        src1: "/assets/images/projects/Web Designs1.jpg",
-        src2: "/assets/images/projects/Web Designs2.jpg",
+        src1: "/assets/images/projects/tikplan1.png",
+        src2: "/assets/images/projects/tikplan2.png",
       },
     },
     {
