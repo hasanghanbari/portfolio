@@ -24,8 +24,8 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="text-black-500 text-[21px] pb-4 text-justify">
-              My projects are implemented with PHP, Javascript, React, Vue.js
-              and Angular technologies
+              My projects are implemented with Javascript, Next.js, React,
+              Vue.js, Angular and PHP technologies
             </div>
             <div className="">
               <Button>Hire Me</Button>
@@ -41,15 +41,15 @@ const HeroSection = () => {
               />
             </div>
             <div className="flex gap-[25px] justify-center">
-              <Link href={"https://facebook.com"}>
+              <Link href={"https://github.com/hasanghanbari"} target="blank">
                 <Image
-                  src={"/assets/images/facebook.png"}
+                  src={"/assets/images/github.png"}
                   alt={""}
                   width={32}
                   height={32}
                 />
               </Link>
-              <Link href={"https://x.com"}>
+              {/* <Link href={"https://x.com"}>
                 <Image
                   src={"/assets/images/twitter.png"}
                   alt={""}
@@ -64,8 +64,11 @@ const HeroSection = () => {
                   width={32}
                   height={32}
                 />
-              </Link>
-              <Link href={"https://linkedin.com"}>
+              </Link> */}
+              <Link
+                href={"https://linkedin.com/in/hasanghanbari/"}
+                target="blank"
+              >
                 <Image
                   src={"/assets/images/linkedin.png"}
                   alt={""}

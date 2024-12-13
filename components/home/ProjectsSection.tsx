@@ -5,13 +5,33 @@ import React from "react";
 const ProjectsSection = () => {
   const projects = [
     {
+      label: "Next.js",
+      title: "Gymit",
+      link: "https://gymit.ir",
+      description: "Gymit is an innovative platform dedicated to fitness and health, designed to simplify your journey to a healthier lifestyle. At Gymit",
+      images: {
+        src1: "/assets/images/projects/gymit2.jpg",
+        src2: "/assets/images/projects/gymit1.jpg",
+      },
+    },
+    {
+      label: "Nuxt.js | vue.js",
+      title: "abricam",
+      link: "https://abricam.ir",
+      description: "The Abrikam platform, with its advanced design, provides centralized management, archive viewing, and 24/7 surveillance with an easy-to-use interface via mobile and web applications.",
+      images: {
+        src1: "/assets/images/projects/abricam2.jpg",
+        src2: "/assets/images/projects/abricam1.jpg",
+      },
+    },
+    {
       label: "Angular | php",
       title: "Karzit",
       link: "https://Karzit.com",
       description: "Business Management System",
       images: {
-        src1: "/assets/images/projects/karzit2.png",
-        src2: "/assets/images/projects/karzit1.png",
+        src1: "/assets/images/projects/karzit2.jpg",
+        src2: "/assets/images/projects/karzit1.jpg",
       },
     },
     {
@@ -20,8 +40,8 @@ const ProjectsSection = () => {
       link: "https://tikplan.ir",
       description: "Flight ticket sales system",
       images: {
-        src1: "/assets/images/projects/tikplan1.png",
-        src2: "/assets/images/projects/tikplan2.png",
+        src1: "/assets/images/projects/tikplan1.jpg",
+        src2: "/assets/images/projects/tikplan2.jpg",
       },
     },
     {
@@ -30,8 +50,8 @@ const ProjectsSection = () => {
       link: "https://falp.ir",
       description: "Local jobs system",
       images: {
-        src1: "/assets/images/projects/falp2.png",
-        src2: "/assets/images/projects/falp1.png",
+        src1: "/assets/images/projects/falp2.jpg",
+        src2: "/assets/images/projects/falp1.jpg",
       },
     },
   ];

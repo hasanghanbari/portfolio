@@ -28,8 +28,8 @@ const AboutSection = () => {
             <div>
               <Progress title={"Javascript"} persent={"80%"} />
               <Progress title={"React"} persent={"70%"} />
+              <Progress title={"Next.js"} persent={"60%"} />
               <Progress title={"Vue"} persent={"65%"} />
-              <Progress title={"Css And Scss"} persent={"80%"} />
               <Progress title={"Angular"} persent={"50%"} />
               <Progress title={"PHP"} persent={"70%"} />
             </div>
